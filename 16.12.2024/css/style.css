@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&display=swap');
+/*Para tag geral*/p{
+    font-size: 24px;
+    font-family: "Playwrite TZ Guides", cursive;
+}
+/*Para class*/.paragrafo{
+    font-size: 50px;
+    text-transform: lowercase;
+    line-height: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    text-decoration: underline;
+}
+/*Para id*/#elementoUnico{
+    font-size: 12px;
+    text-transform: lowercase;
+    line-height: 60px;
+    color: blue;
+    text-align: justify;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    text-decoration: underline;
+}
+#elementoDubio{
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+/* #caixa{
+    background-color: bisque;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+
+/* font-size, seletores, background-color, color, text-align */
+
+/* Tarefa de casa: deixar as 3 seções https://github.com/FS23-SUL/ProjetoClone/issues conforme a imagem */
