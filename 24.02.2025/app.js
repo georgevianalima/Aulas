@@ -61,42 +61,42 @@
 // let quantidadeEstoque = produto.preco * produto.quantidade
 // console.log(`O produto ${produto.nome} custa R$${produto.preco} e temos ${produto.quantidade} unidades em estoque. O total de estoque é ${quantidadeEstoque}.`)
 
-let usuarios = [
-    {
-        id:1,
-        nome:"Zezim",
-        cpf:89742386324,
-        telefone:324234324
-    },
-    {
-        id:2,
-        nome:"Elias",
-        cpf:8974233232,
-        telefone:12342123
-    },
-    {
-        id:3,
-        nome:"Junim",
-        cpf:48329747786,
-        telefone:43242232
-    }
-]
+// let usuarios = [
+//     {
+//         id:1,
+//         nome:"Zezim",
+//         cpf:89742386324,
+//         telefone:324234324
+//     },
+//     {
+//         id:2,
+//         nome:"Elias",
+//         cpf:8974233232,
+//         telefone:12342123
+//     },
+//     {
+//         id:3,
+//         nome:"Junim",
+//         cpf:48329747786,
+//         telefone:43242232
+//     }
+// ]
 
 // ${usuarios[index].nome}
 // Gostaria que vocês retornassem a seguinte frase do junim
 // [nome] de [cpf] está com a matricula travada, favor ligar [telefone]
 
-console.log(`${usuarios[2].nome} de CPF ${usuarios[2].cpf}, está com a matricula travada, favor ligar ${usuarios[2].telefone}`)
+// console.log(`${usuarios[2].nome} de CPF ${usuarios[2].cpf}, está com a matricula travada, favor ligar ${usuarios[2].telefone}`)
 
 //Gostaria que vocês retornassem a seguinte frase
 // A oficina do [nome] está aberta hoje, ligue para [telefone] para mais informações
-console.log(`${usuarios[1].nome} está aberta hoje, ligue para ${usuarios[1].telefone}`);
+// console.log(`${usuarios[1].nome} está aberta hoje, ligue para ${usuarios[1].telefone}`);
 
 
 //Gostaria que vocês retornassem a seguinte frase 
 // O [nome] de [cpf] foi sorteado no totolec, por favor venha retirar seu prêmio.
-console.log(`O ${usuarios[0].nome} de CPF ${usuarios[0].cpf} foi sorteado no totolec, por favor venha retirar seu prêmio.`);
-console.log(`${usuarios[1].nome,usuarios[0].nome}`);
+// console.log(`O ${usuarios[0].nome} de CPF ${usuarios[0].cpf} foi sorteado no totolec, por favor venha retirar seu prêmio.`);
+// console.log(`${usuarios[1].nome,usuarios[0].nome}`);
 
 //operadores
 
@@ -122,6 +122,74 @@ console.log(`${usuarios[1].nome,usuarios[0].nome}`);
 
 // alert(soma)
 
-let nome = prompt("Digite seu nome: ")
+// let nome = prompt("Digite seu nome: ")
 
-alert(`${nome} é o cara!!`)
+// alert(`${nome} é o cara!!`)
+
+//Exercicio casa
+
+
+//Peça ao usuário dois números e realize as quatro operações matemáticas básicas (soma, subtração, multiplicação e divisão). Exiba os resultados no console.
+
+// let a = prompt("Digite o primeiro número")
+// let b = prompt("Digite o segundo número")
+// let soma = Number(a) + Number(b)
+// let divisao = Number(a) / Number(b)
+// let multiplicacao = Number(a) * Number(b)
+// let subtracao = Number(a) - Number(b)
+// alert(`A soma de ${a} + ${b} é igual a ${soma}`)
+// alert(`A divisão de ${a} / ${b} é igual a ${divisao}`)
+// alert(`A multiplicação de ${a} * ${b} é igual a ${multiplicacao}`)
+// alert(`A subtração de ${a} - ${b} é igual a ${subtracao}`)
+
+//Peça ao usuário um número e exiba no console o seu quadrado.
+
+// let numero = prompt("Digite um número")
+
+// let quadrado = Number(numero) * Number(numero)
+
+// console.log(`O quadrado de ${numero} é: ${quadrado}`);
+
+
+//Peça ao usuário três números e exiba a média deles no console.
+
+// let numero1 = prompt("Digita o primeiro número:")
+// let numero2 = prompt("Digita o segundo número:")
+// let numero3 = prompt("Digita o terceiro número:")
+// let media = (Number(numero1) + Number(numero2) + Number(numero3)) / 3
+
+// console.log(`A média dos números ${numero1}, ${numero2} e ${numero3} é: ${media}`)
+
+//Peça ao usuário a base e a altura de um retângulo e exiba sua área no console.
+
+// let base = Number(prompt("Digite a base do retângulo"))
+// let altura = Number(prompt("Digite a altura do retangulo"))
+// let area = base * altura
+// console.log(`A área do retangulo com base ${base} e altura ${altura} é: ${area}`)
+
+//Peça ao usuário o raio de um círculo e calcule seu perímetro (2 * π * raio).
+
+// let raio = Number(prompt("Digite o raio do círculo:"))
+// let perimetro = 2 * 3.14159265359 * raio
+// alert(`O perímetro do raio de um círculo é: ${perimetro}`)
+
+//Peça ao usuário uma temperatura em Celsius e converta para Fahrenheit.
+
+// let celsius = Number(prompt("Digite a temperatura em Celsius:"))
+// let fahrenheit = (celsius * 9/5) + 32
+// alert(`A temperatura ${celsius} em Celsius convertida para Fahrenheite é: ${fahrenheit}`)
+
+//Peça ao usuário o valor total da compra e o valor pago. Exiba o troco.
+
+// let totalCompra = Number(prompt("Digite o valor total da compra"))
+// let valorPago = Number(prompt("Digite quanto foi pago em dinheiro"))
+// let troco = valorPago - totalCompra
+// alert(`O troco a receber é: ${troco}`)
+
+//Peça ao usuário o peso (kg) e a altura (m) e calcule seu IMC.
+
+let peso = Number(prompt("Digite o seu peso"))
+let altura = Number(prompt("Digita sua altura em centimetros"))
+let imc = (peso / ((altura * altura) /100)) *100
+alert(`Seu IMC é ${imc} `)
+
