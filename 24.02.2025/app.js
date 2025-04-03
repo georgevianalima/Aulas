@@ -144,21 +144,23 @@
 
 //Peça ao usuário um número e exiba no console o seu quadrado.
 
-// let numero = prompt("Digite um número")
+// let numero = Number(prompt("Digite um número"))
 
-// let quadrado = Number(numero) * Number(numero)
+// let quadrado = numero * numero
 
 // console.log(`O quadrado de ${numero} é: ${quadrado}`);
+// alert(`O quadrado de ${numero} é: ${quadrado} `)
 
 
 //Peça ao usuário três números e exiba a média deles no console.
 
-// let numero1 = prompt("Digita o primeiro número:")
-// let numero2 = prompt("Digita o segundo número:")
-// let numero3 = prompt("Digita o terceiro número:")
-// let media = (Number(numero1) + Number(numero2) + Number(numero3)) / 3
+// let numero1 = Number(prompt("Digita o primeiro número:"))
+// let numero2 = Number(prompt("Digita o segundo número:"))
+// let numero3 = Number(prompt("Digita o terceiro número:"))
+// let media = (numero1 + numero2 + numero3) / 3
 
 // console.log(`A média dos números ${numero1}, ${numero2} e ${numero3} é: ${media}`)
+// alert(`A média dos números ${numero1}, ${numero2} e ${numero3} é: ${media}`)
 
 //Peça ao usuário a base e a altura de um retângulo e exiba sua área no console.
 
@@ -188,8 +190,8 @@
 
 //Peça ao usuário o peso (kg) e a altura (m) e calcule seu IMC.
 
-let peso = Number(prompt("Digite o seu peso"))
-let altura = Number(prompt("Digita sua altura em centimetros"))
-let imc = (peso / ((altura * altura) /100)) *100
-alert(`Seu IMC é ${imc} `)
+// let peso = Number(prompt("Digite o seu peso"))
+// let altura = Number(prompt("Digita sua altura em centimetros"))
+// let imc = (peso / ((altura * altura) /100)) *100
+// alert(`Seu IMC é ${imc} `)
 
