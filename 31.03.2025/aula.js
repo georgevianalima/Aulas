@@ -240,192 +240,192 @@ for (let index = 10; index >= 1; index--) {
 //Quando for multiplo de 3 mostre o mar, quando for de 4 mostre o menino e dos 2 marmenino
 
 
-2. Filtrar objetos pelo cargo "Student"
-Use um for para encontrar todos os objetos em que o role seja "Student" e imprima o nome dessas pessoas.
+// 2. Filtrar objetos pelo cargo "Student"
+// Use um for para encontrar todos os objetos em que o role seja "Student" e imprima o nome dessas pessoas.
 
-Exemplo de saída:
-Joao
-Lucas1. Imprimir o nome de todos os objetos
+// Exemplo de saída:
+// Joao
+// Lucas1. Imprimir o nome de todos os objetos
 
-Use um laço for para imprimir o nome de cada pessoa no array arrayObj.
-Exemplo de saída:
-Elias
-Joao
-Lucas
-Jander
-Ander-som
-Jander
-Ander-som
+// Use um laço for para imprimir o nome de cada pessoa no array arrayObj.
+// Exemplo de saída:
+// Elias
+// Joao
+// Lucas
+// Jander
+// Ander-som
+// Jander
+// Ander-som
 
-3. Contar quantos objetos têm o cargo "Student"
-Crie um laço for que percorra o array e conte quantos objetos têm o cargo "Student". em js
+// 3. Contar quantos objetos têm o cargo "Student"
+// Crie um laço for que percorra o array e conte quantos objetos têm o cargo "Student". em js
 
-Exemplo de saída:
-4
+// Exemplo de saída:
+// 4
 
-// 4. Imprimir apenas o id e role dos objetos
-// Use um laço for para imprimir apenas o id e o role de cada objeto.
+// // 4. Imprimir apenas o id e role dos objetos
+// // Use um laço for para imprimir apenas o id e o role de cada objeto.
 
-let estudantes = [
-    { id: 1, nome: "Mariana", idade: 17, role: "teacher" },
-    { id: 2, nome: "Carlos", idade: 14, role: "student" },
-    { id: 3, nome: "Ana", idade: 22, role: "student" },
-    { id: 4, nome: "João", idade: 15, role: "teacher" },
-    { id: 5, nome: "Fernanda", idade: 19, role: "student" },
-    { id: 6, nome: "Lucas", idade: 16, role: "teacher" },
-    { id: 7, nome: "Raquel", idade: 20, role: "student" },
-    { id: 8, nome: "Gustavo", idade: 13, role: "teacher" },
-    { id: 9, nome: "Isabela", idade: 18, role: "student" },
-    { id: 10, nome: "Ricardo", idade: 17, role: "student" },
-    { id: 11, nome: "Prof. Silva", idade: 40, role: "teacher" },
-    { id: 12, nome: "Prof. Oliveira", idade: 35, role: "teacher" }
-];
-
-
-5. Alterar o cargo de uma pessoa para "Teacher"
-Use um for para mudar o role de uma pessoa específica para "Teacher". Por exemplo, mude o cargo de "Joao" para "Teacher".
-
-Exemplo de saída após alteração:
-Joao agora tem o cargo de "Teacher".
-
-6. Criar um novo array apenas com os nomes
-Use um for para criar um novo array contendo apenas os nomes das pessoas no array original.
-
-Exemplo de saída:
-["Elias", "Joao", "Lucas", "Jander", "Ander-som"]
+// let estudantes = [
+//     { id: 1, nome: "Mariana", idade: 17, role: "teacher" },
+//     { id: 2, nome: "Carlos", idade: 14, role: "student" },
+//     { id: 3, nome: "Ana", idade: 22, role: "student" },
+//     { id: 4, nome: "João", idade: 15, role: "teacher" },
+//     { id: 5, nome: "Fernanda", idade: 19, role: "student" },
+//     { id: 6, nome: "Lucas", idade: 16, role: "teacher" },
+//     { id: 7, nome: "Raquel", idade: 20, role: "student" },
+//     { id: 8, nome: "Gustavo", idade: 13, role: "teacher" },
+//     { id: 9, nome: "Isabela", idade: 18, role: "student" },
+//     { id: 10, nome: "Ricardo", idade: 17, role: "student" },
+//     { id: 11, nome: "Prof. Silva", idade: 40, role: "teacher" },
+//     { id: 12, nome: "Prof. Oliveira", idade: 35, role: "teacher" }
+// ];
 
 
-let arrayNomes = []
+// 5. Alterar o cargo de uma pessoa para "Teacher"
+// Use um for para mudar o role de uma pessoa específica para "Teacher". Por exemplo, mude o cargo de "Joao" para "Teacher".
 
-for (let index = 0; index < estudantes.length; index++) {
-  arrayNomes.push(estudantes[index].nome)
-}
-console.log(arrayNomes)
+// Exemplo de saída após alteração:
+// Joao agora tem o cargo de "Teacher".
 
-7. Verificar se existe uma pessoa com o nome "Lucas"
-Use um laço for para verificar se existe algum objeto com o nome "Lucas". Se existir, imprima "Encontrado".
+// 6. Criar um novo array apenas com os nomes
+// Use um for para criar um novo array contendo apenas os nomes das pessoas no array original.
 
-Exemplo de saída:
-Encontrado
-
-8. Verificar a quantidade de pessoas com o nome "Student" e "Teacher"
-Crie um laço que conte quantas pessoas são "Student" e quantas são "Teacher" e imprima essa informação.
-
-Exemplo de saída:
-Estudantes: 4
-Professores: 1
-
-9. Alterar o nome de "Ander-som" para "Anderson"
-Crie um laço for para modificar o nome da pessoa que tem o nome "Ander-som" para "Anderson".
-
-Exemplo de saída após alteração:
-O nome de "Ander-som" agora é "Anderson".
-
-10. Imprimir o nome de quem tem o id 3
-Crie um laço for para procurar e imprimir o nome da pessoa com o id 3.
-
-let estudantes = [
-  { nome: "Mariana", idade: 17 },
-  { nome: "Carlos", idade: 14 },
-  { nome: "Ana", idade: 22 },
-  { nome: "João", idade: 15 },
-  { nome: "Fernanda", idade: 19 },
-  { nome: "Lucas", idade: 16 },
-  { nome: "Raquel", idade: 20 },
-  { nome: "Gustavo", idade: 13 },
-  { nome: "Isabela", idade: 18 },
-  { nome: "Ricardo", idade: 17 }
-];
-
-Neste exercício, vamos verificar se os estudantes têm idade para votar (idade maior ou igual a 16 anos) e mostrar se eles estão ou não habilitados para votar.
-
-Neste exercício, vamos contar quantos estudantes estão em diferentes faixas etárias:
-
-Faixa 1: 13 a 17 anos
-Faixa 2: 18 a 25 anos
-Faixa 3: 26 a 35 anos
-Faixa 4: acima de 35 anos
-
-let alunos = [
-  { nome: "Mariana", notas: [7, 8, 6] },
-  { nome: "Carlos", notas: [4, 5, 3] },
-  { nome: "Ana", notas: [9, 8, 10] },
-  { nome: "João", notas: [5, 5, 5] },
-  { nome: "Fernanda", notas: [6, 7, 5] }
-];
-
-Neste exercício, temos alunos com suas notas em várias matérias. A tarefa é calcular a média das notas de cada aluno e classificá-los como "Aprovado" (média >= 6) ou "Reprovado" (média < 6).
+// Exemplo de saída:
+// ["Elias", "Joao", "Lucas", "Jander", "Ander-som"]
 
 
-Neste exercício, vamos contar quantos estudantes têm nota superior a 7 e exibir os nomes desses estudantes.
+// let arrayNomes = []
+
+// for (let index = 0; index < estudantes.length; index++) {
+//   arrayNomes.push(estudantes[index].nome)
+// }
+// console.log(arrayNomes)
+
+// 7. Verificar se existe uma pessoa com o nome "Lucas"
+// Use um laço for para verificar se existe algum objeto com o nome "Lucas". Se existir, imprima "Encontrado".
+
+// Exemplo de saída:
+// Encontrado
+
+// 8. Verificar a quantidade de pessoas com o nome "Student" e "Teacher"
+// Crie um laço que conte quantas pessoas são "Student" e quantas são "Teacher" e imprima essa informação.
+
+// Exemplo de saída:
+// Estudantes: 4
+// Professores: 1
+
+// 9. Alterar o nome de "Ander-som" para "Anderson"
+// Crie um laço for para modificar o nome da pessoa que tem o nome "Ander-som" para "Anderson".
+
+// Exemplo de saída após alteração:
+// O nome de "Ander-som" agora é "Anderson".
+
+// 10. Imprimir o nome de quem tem o id 3
+// Crie um laço for para procurar e imprimir o nome da pessoa com o id 3.
+
+// let estudantes = [
+//   { nome: "Mariana", idade: 17 },
+//   { nome: "Carlos", idade: 14 },
+//   { nome: "Ana", idade: 22 },
+//   { nome: "João", idade: 15 },
+//   { nome: "Fernanda", idade: 19 },
+//   { nome: "Lucas", idade: 16 },
+//   { nome: "Raquel", idade: 20 },
+//   { nome: "Gustavo", idade: 13 },
+//   { nome: "Isabela", idade: 18 },
+//   { nome: "Ricardo", idade: 17 }
+// ];
+
+// Neste exercício, vamos verificar se os estudantes têm idade para votar (idade maior ou igual a 16 anos) e mostrar se eles estão ou não habilitados para votar.
+
+// Neste exercício, vamos contar quantos estudantes estão em diferentes faixas etárias:
+
+// Faixa 1: 13 a 17 anos
+// Faixa 2: 18 a 25 anos
+// Faixa 3: 26 a 35 anos
+// Faixa 4: acima de 35 anos
+
+// let alunos = [
+//   { nome: "Mariana", notas: [7, 8, 6] },
+//   { nome: "Carlos", notas: [4, 5, 3] },
+//   { nome: "Ana", notas: [9, 8, 10] },
+//   { nome: "João", notas: [5, 5, 5] },
+//   { nome: "Fernanda", notas: [6, 7, 5] }
+// ];
+
+// Neste exercício, temos alunos com suas notas em várias matérias. A tarefa é calcular a média das notas de cada aluno e classificá-los como "Aprovado" (média >= 6) ou "Reprovado" (média < 6).
+
+
+// Neste exercício, vamos contar quantos estudantes têm nota superior a 7 e exibir os nomes desses estudantes.
 
 
 
 
- Encontrar a pessoa com a maior idade e imprimir o nome dela.
+//  Encontrar a pessoa com a maior idade e imprimir o nome dela.
 
-let estudantes = [
-  { nome: "Mariana", idade: 17 },
-  { nome: "Carlos", idade: 14 },
-  { nome: "Ana", idade: 22 },
-  { nome: "João", idade: 15 },
-  { nome: "Fernanda", idade: 19 },
-  { nome: "Lucas", idade: 16 },
-  { nome: "Raquel", idade: 20 },
-  { nome: "Gustavo", idade: 13 },
-  { nome: "Isabela", idade: 18 },
-  { nome: "Ricardo", idade: 17 }
-];
+// let estudantes = [
+//   { nome: "Mariana", idade: 17 },
+//   { nome: "Carlos", idade: 14 },
+//   { nome: "Ana", idade: 22 },
+//   { nome: "João", idade: 15 },
+//   { nome: "Fernanda", idade: 19 },
+//   { nome: "Lucas", idade: 16 },
+//   { nome: "Raquel", idade: 20 },
+//   { nome: "Gustavo", idade: 13 },
+//   { nome: "Isabela", idade: 18 },
+//   { nome: "Ricardo", idade: 17 }
+// ];
 
- Encontrar a média das idades e imprimir quantos estudantes estão acima da média.
-let estudantes = [
-  { nome: "Mariana", idade: 17 },
-  { nome: "Carlos", idade: 14 },
-  { nome: "Ana", idade: 22 },
-  { nome: "João", idade: 15 },
-  { nome: "Fernanda", idade: 19 },
-  { nome: "Lucas", idade: 16 },
-  { nome: "Raquel", idade: 20 },
-  { nome: "Gustavo", idade: 13 },
-  { nome: "Isabela", idade: 18 },
-  { nome: "Ricardo", idade: 17 }
-];
+//  Encontrar a média das idades e imprimir quantos estudantes estão acima da média.
+// let estudantes = [
+//   { nome: "Mariana", idade: 17 },
+//   { nome: "Carlos", idade: 14 },
+//   { nome: "Ana", idade: 22 },
+//   { nome: "João", idade: 15 },
+//   { nome: "Fernanda", idade: 19 },
+//   { nome: "Lucas", idade: 16 },
+//   { nome: "Raquel", idade: 20 },
+//   { nome: "Gustavo", idade: 13 },
+//   { nome: "Isabela", idade: 18 },
+//   { nome: "Ricardo", idade: 17 }
+// ];
 
-//Verificar se existe algum estudante que tem o nome começando com a letra "A".
+// //Verificar se existe algum estudante que tem o nome começando com a letra "A".
 
-let estudantes = [
-  { nome: "Mariana", idade: 17 },
-  { nome: "Carlos", idade: 14 },
-  { nome: "Ana", idade: 22 },
-  { nome: "João", idade: 15 },
-  { nome: "Fernanda", idade: 19 },
-  { nome: "Lucas", idade: 16 },
-  { nome: "Raquel", idade: 20 },
-  { nome: "Gustavo", idade: 13 },
-  { nome: "Isabela", idade: 18 },
-  { nome: "Ricardo", idade: 17 }
-];
+// let estudantes = [
+//   { nome: "Mariana", idade: 17 },
+//   { nome: "Carlos", idade: 14 },
+//   { nome: "Ana", idade: 22 },
+//   { nome: "João", idade: 15 },
+//   { nome: "Fernanda", idade: 19 },
+//   { nome: "Lucas", idade: 16 },
+//   { nome: "Raquel", idade: 20 },
+//   { nome: "Gustavo", idade: 13 },
+//   { nome: "Isabela", idade: 18 },
+//   { nome: "Ricardo", idade: 17 }
+// ];
 
 
-//Agrupar estudantes por faixa etária.
+// //Agrupar estudantes por faixa etária.
 
-let estudantes = [
-  { nome: "Mariana", idade: 17 },
-  { nome: "Carlos", idade: 14 },
-  { nome: "Ana", idade: 22 },
-  { nome: "João", idade: 15 },
-  { nome: "Fernanda", idade: 19 },
-  { nome: "Lucas", idade: 16 },
-  { nome: "Raquel", idade: 20 },
-  { nome: "Gustavo", idade: 13 },
-  { nome: "Isabela", idade: 18 },
-  { nome: "Ricardo", idade: 17 }
-];
+// let estudantes = [
+//   { nome: "Mariana", idade: 17 },
+//   { nome: "Carlos", idade: 14 },
+//   { nome: "Ana", idade: 22 },
+//   { nome: "João", idade: 15 },
+//   { nome: "Fernanda", idade: 19 },
+//   { nome: "Lucas", idade: 16 },
+//   { nome: "Raquel", idade: 20 },
+//   { nome: "Gustavo", idade: 13 },
+//   { nome: "Isabela", idade: 18 },
+//   { nome: "Ricardo", idade: 17 }
+// ];
 
-for (let index = 0; index < estudantes.length; index++) {
-      if (estudantes[index].idade = 13) {
+// for (let index = 0; index < estudantes.length; index++) {
+//       if (estudantes[index].idade = 13) {
 
-      }
+//       }
           
-}
-console.log(estudantes[0].idade);
+// }
+// console.log(estudantes[0].idade);
