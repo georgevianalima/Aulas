@@ -96,10 +96,10 @@ for (let index = 1; index <= 10; index++) {
 }
 // Crie um loop que imprime a tabuada do 5 (de 1 a 10) no console.
 
-let tabuada = 5
+let tabuada1 = 5
 
 for (let index = 1; index <= 10; index++) {
-    console.log(`${tabuada} x ${index} = ${tabuada * index}`);
+    console.log(`${tabuada1} x ${index} = ${tabuada1 * index}`);
     
     
 }
@@ -132,9 +132,9 @@ console.log(somaMedia /50);
 
 // Fatorial de um Número
 
-let multi = 1
+let multi1 = 1
 for (let index = 1; index <= 4; index++) {
-    multi = multi * index;
+    multi = multi1 * index;
     
 }
 console.log(multi);
