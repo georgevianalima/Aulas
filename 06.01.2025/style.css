@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+GB+J+Guides:ital@0;1&family=Playwrite+TZ+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    color: #ff0000 !important;
+    color: rgb(240, 255, 255);
+}*/
+/*TAGS p{
+    color: blue;
+}*/
+/* ID é unico .texto{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Playwrite GB J Guides", serif;
+    /*letter-spacing: 30px;*/
+    /*word-spacing: 30px;*/
+    /*text-transform: uppercase;
+    text-align: center;
+} */
+/* *{
+    font-family: "Playwrite GB J Guides", serif;
+    text-decoration: none;
+    margin: 0;
+}
+#texto1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: ;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo i{
+    display: flex;
+    gap: 10px;
+
+}
+menu{
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+    align-items: center
+}
+.container a{
+    color: black;
+    font-weight: 400;
+}
+#botao{
+    width: 20vw;
+
+}
+#botao button{
+    width: 13vw;
+    background-color: red;
+    color: 
+    
+}
+.container{
+    height:100%;
+    background-color: red;
+    display: ;
+    width: 6vw;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    align-items: flex-end;
+  
+}
+section{
+    display: flex;
+    justify-content: space-between;
+
+    height: 10vh;
+}
+#logo{
+    display: flex;
+    gap: 10px;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+#logo i{
+    color: orangered;
+    font-size: 24px;
+}
+
+#logo h1{
+    color: orangered;
+    font-size: 24px;
+}
+#menu{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container a{
+    color: black;
+    font-weight: 400;
+}
+#botao{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botao button{
+    width: 13vw;
+    background-color: orangered;
+    color: white;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+}
+.container:hover{
+    background-color: orangered;
+}

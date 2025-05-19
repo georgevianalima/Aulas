@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    align-items: flex-end;
+  
+}
+section{
+    display: flex;
+    justify-content: space-between;
+
+    height: 10vh;
+}
+#logo{
+    display: flex;
+    gap: 10px;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+#logo i{
+    color: orangered;
+    font-size: 24px;
+}
+
+#logo h1{
+    color: orangered;
+    font-size: 24px;
+}
+#menu{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container a{
+    color: black;
+    font-weight: 400;
+}
+#botao{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botao button{
+    width: 13vw;
+    background-color: orangered;
+    color: white;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+}
+.container:hover{
+    background-color: orangered;
+}
+#banner{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+}
+#texts{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#image{
+    width: 100vw;
+    height: 60vh;
+}
+#image img{
+    width: 100vw;
+    height: 60vh;
+    filter: brightness(15%);
+}
+#text h4{
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+}
+#text h1{
+color: white;
+font-size: 45px;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 10vh;
+}
+#search button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 6vh;
+    width: 9vw;
+    font-size: 12px;
+    cursor: pointer;
+}
+#search input{
+    border: none;
+    width: 20vw;
+    height: 6vh;
+    outline: none;
+    padding-left: 1vw;
+}
+#search ::placeholder{
+    padding-left: 1vw;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #f2f2f5ff;
+}
+#geral{
+    height: 45vh;
+    width: 30vw;
+}
+#lateral{
+    padding-right: 6%;
+    padding-top: 10%;
+}
+#lateral h4{
+    color: orangered;
+}
+#lateral h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+#lateral p{
+    text-align: justify;
+    font-size: 13px;
+    color: #828282ff;
+    margin-top: 3%;
+}
+#divisors{
+    display: flex;
+    margin-top: 4%; 
+    padding-right: 6%;   
+    justify-content: space-between;
+}
+#divisors span{
+    color: orangered;
+    font-weight: bold;
+    font-size: 35px;
+}
+#divisors p{
+    font-size: 14px;
+    font-weight: bold;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: orangered;
+    height: 45vh;
+    width: 20vw;
+}
+#form input{
+    height: 4vh;
+    width: 16vw;
+    border: none;
+    outline: none;
+    margin-bottom: 4%;
+}
+#form button{
+    height: 5vh;
+    width: 16vw;
+    border: none;
+    background-color: #1f1f2eff;
+    color: white;
+    font-size:12px;
+}
+#form ::placeholder{
+    font-size: 13px;
+    padding-left: 6%;
+}
+#preco{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+    margin-top: px;
+    margin-bottom: 2%;
+    background-color: red;
+}

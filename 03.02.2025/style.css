@@ -1,0 +1,56 @@
+#menu-trap{
+    margin-bottom: 2vh;
+}
+#carrosel{
+    width: 100vw;
+    height: 60vh;
+}
+.carousel{
+    width: 100vw;
+    height: 60vh;
+}
+img{
+    width: 100vw;
+    height: 60vh;
+}
+#cards{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.card-img-top{
+    height: 25vh;
+}
+.card a{
+    display: flex;
+    justify-content: center;
+}
+.accordion{
+    width: 60vw;
+}
+#faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+#footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    background-color: rgb(180, 180, 180);
+    
+}
+#Copyright{
+    height: 4vh;
+}
+.collapse{
+    display: flex;
+    align-items: end;
+}

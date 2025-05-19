@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teste{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+}
+.teste a{
+    text-decoration: none;
+}
+.teste label{
+    display: flex;
+    align-items: center;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    border: none;    
+}
+.campos input{
+    background-color: #e8e8e8ff;
+    border: none;
+    height: 5vh;
+    margin-bottom: 5%;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.campos ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    padding-left: 10%;
+}
+section{
+    width: 17vw;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.botao button{
+    display: flex;
+    border: none;
+    background-color: #8282f5ff;
+    color: white;
+    width: 17vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+
+}
